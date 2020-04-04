@@ -1,0 +1,82 @@
+body
+{
+	background: black;
+}
+
+.postcard
+{
+	padding: 20px;
+	width: 650px;
+	height: 320px;
+	background: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%); 
+}
+
+.izquierda p
+{
+	display: inline;
+}
+
+.top img
+{
+	max-width: 60px;
+	float: right;
+}
+
+.top
+{
+	
+	overflow: hidden;
+}
+
+.top h1
+{
+	display: inline;
+}
+
+.izquierda
+{
+	width: 50%;
+	float: left;
+}
+
+.derecha
+{
+	width: 50%;
+	float: right;
+	text-align: center;
+	vertical-align: middle;
+}
+
+input[type=text]
+{
+	font-size: 18px;
+	align-items: center;
+	border: none;
+	border-bottom: 2px solid;
+	margin-bottom: 8px;
+}
+
+.middle
+{
+	padding-top: 15px;
+	overflow: hidden;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.bottom
+{
+	padding: 10px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+input[type=submit]
+{
+	border: none;
+	padding: 8px;
+}
